@@ -2,7 +2,10 @@ Esse pseudocódigo possui uma classe de definição (base_altura) que é usada c
 
 Dentre as opções há a definição de área de cada forma geométrica e a verificação e ordenação decrescente do tamanho das áreas das formas inseridas.
 
-Autoria: Jéssica Eveline, 221022319.
+## Autoria
+
+- Jéssica Eveline
+- Matrícula: 221022319
 
 # Pseudocódigo Geométrico
 
