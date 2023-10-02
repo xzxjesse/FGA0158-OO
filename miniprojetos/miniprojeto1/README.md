@@ -2,16 +2,11 @@ Esse pseudocódigo possui uma classe de definição (base_altura) que é usada c
 
 Dentre as opções há a definição de área de cada forma geométrica e a verificação e ordenação decrescente do tamanho das áreas das formas inseridas.
 
-## Autoria
-
-- Jéssica Eveline
-- Matrícula: 221022319
-
 # Pseudocódigo Geométrico
 
 Este pseudocódigo apresenta uma implementação simples para cálculo de áreas de formas geométricas, incluindo retângulos, triângulos e círculos. Também inclui uma funcionalidade para verificar e ordenar decrescentemente o tamanho das áreas das formas inseridas.
 
-## Autor
+## Autoria
 
 - Jéssica Eveline
 - Matrícula: 221022319
