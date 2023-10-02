@@ -1,7 +1,3 @@
-Esse pseudocódigo possui uma classe de definição (base_altura) que é usada como herança das classes retângulo e triângulo, contém também a classe círculo.
-
-Dentre as opções há a definição de área de cada forma geométrica e a verificação e ordenação decrescente do tamanho das áreas das formas inseridas.
-
 # Pseudocódigo Geométrico
 
 Este pseudocódigo apresenta uma implementação simples para cálculo de áreas de formas geométricas, incluindo retângulos, triângulos e círculos. Também inclui uma funcionalidade para verificar e ordenar decrescentemente o tamanho das áreas das formas inseridas.
