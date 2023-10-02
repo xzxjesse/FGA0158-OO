@@ -1,5 +1,8 @@
-# workspace_FGA0158
-área de trabalho e entregas da matéria de orientação à objetos.
+Esse pseudocódigo possui uma classe de definição (base_altura) que é usada como herança das classes retângulo e triângulo, contém também a classe círculo.
+
+Dentre as opções há a definição de área de cada forma geométrica e a verificação e ordenação decrescente do tamanho das áreas das formas inseridas.
+
+Autoria: Jéssica Eveline, 221022319.
 
 # Pseudocódigo Geométrico
 
@@ -15,7 +18,7 @@ Este pseudocódigo apresenta uma implementação simples para cálculo de áreas
 O pseudocódigo inclui as seguintes funcionalidades:
 
 1. Definição de uma classe base chamada `base_altura` que é usada como herança para as classes `retângulo` e `triângulo`.
-2. Uma classe separada para `círculo`.
+2. Uma classe separada para círculos.
 3. Métodos para calcular a área de cada forma geométrica.
 4. Funcionalidade para inserir as formas geométricas e calcular suas áreas.
 5. Ordenação decrescente das áreas das formas inseridas.

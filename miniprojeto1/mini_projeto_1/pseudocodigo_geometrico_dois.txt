@@ -1,0 +1,77 @@
+classe base_altura
+    variavel base
+    variavel altura
+
+    funcao definir (base,altura)
+        base = lerFloat("digite a base: ")
+        altura = lerFloat("digite a altura: ")
+
+fim classe
+
+classe retangulo(base_altura)
+    
+    função calcularÁrea()
+        retornar base * altura
+
+fim classe
+
+classe triangulo (base_altura)
+    
+    função calcularÁrea()
+        retornar (base * altura) / 2
+
+fim classe
+
+classe circulo
+    variavel raio
+
+    funcao definir(raio)
+        raio = definir raio do circulo
+
+    funcao calcularÁrea()
+        constante pi = 3.14159265359
+        retornar pi * raio * raio
+
+fim classe
+
+função main()
+    exibir "bem-vindo ao pseudocodigo geometrico!"
+
+    escolha = 0
+    enquanto escolha != 4
+        exibir "escolha uma forma geometrica:"
+        exibir "1. retângulo"
+        exibir "2. triângulo"
+        exibir "3. círculo"
+        exibir "4. sair"
+        
+        escolha = lerInteiro("digite o número da forma desejada: ")
+        
+        se escolha == 1
+
+            retangulo.base_altura(base) = base
+            retangulo.base_altura(altura) = altura
+            retangulo = novo Retangulo(base, altura)
+            área = retangulo.calcularÁrea()
+            exibir "a área do retângulo é:", área
+
+        senão se escolha == 2
+
+            triangulo.base_altura(base) = base
+            triangulo.base_altura(altura) = altura
+            triangulo = novo Triangulo(base, altura)
+            área = triangulo.calcularÁrea()
+            exibir "a área do triângulo é:", área
+
+        senão se escolha == 3
+
+            circulo.definir(raio) = lerFloat("digite o raio do círculo: ")
+            círculo = novo Circulo(raio)
+            área = círculo.calcularÁrea()
+            exibir "a área do círculo é:", área
+
+        senão se escolha != 4
+
+            exibir "obrigado por usar pseudocodigo geometrico!"
+
+fim função
