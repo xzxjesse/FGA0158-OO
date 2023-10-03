@@ -1,6 +1,6 @@
-from miniprojetos.miniprojeto2.mini_projeto_2_entrega.codigo_geometrico.circulo import Circulo
-from miniprojetos.miniprojeto2.mini_projeto_2_entrega.codigo_geometrico.retangulo import Retangulo
-from miniprojetos.miniprojeto2.mini_projeto_2_entrega.codigo_geometrico.triangulo import Triangulo
+from workspace_FGA0158.miniprojetos.miniprojeto2.mini_projeto_2_entrega.codigo_geometrico.circulo import Circulo
+from workspace_FGA0158.miniprojetos.miniprojeto2.mini_projeto_2_entrega.codigo_geometrico.retangulo import Retangulo
+from workspace_FGA0158.miniprojetos.miniprojeto2.mini_projeto_2_entrega.codigo_geometrico.triangulo import Triangulo
 
 def main():
     print("Bem-vindo ao código geométrico!")
