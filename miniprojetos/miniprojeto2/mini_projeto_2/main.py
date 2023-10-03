@@ -1,6 +1,6 @@
-from workspace_FGA0158.workspace_FGA0158.miniprojeto2.mini_projeto_2.codigo_geometrico.circulo import Circulo
-from workspace_FGA0158.workspace_FGA0158.miniprojeto2.mini_projeto_2.codigo_geometrico.retangulo import Retangulo
-from workspace_FGA0158.workspace_FGA0158.miniprojeto2.mini_projeto_2.codigo_geometrico.triangulo import Triangulo
+from workspace_FGA0158.miniprojetos.miniprojeto2.mini_projeto_2.codigo_geometrico.circulo import Circulo
+from workspace_FGA0158.miniprojetos.miniprojeto2.mini_projeto_2.codigo_geometrico.retangulo import Retangulo
+from workspace_FGA0158.miniprojetos.miniprojeto2.mini_projeto_2.codigo_geometrico.triangulo import Triangulo
 
 def main():
     print("Bem-vindo ao código geométrico!")
@@ -13,14 +13,15 @@ def main():
     triangulos = []
     circulos = []
 
-    while escolha != 6:
+    while escolha != 7:
         print("\nEscolha uma ação:")
         print("1. Definir um retângulo")
         print("2. Definir um triângulo")
         print("3. Definir um círculo")
         print("4. Listar as formas armazenadas")
         print("5. Ordenar tamanhos de área")
-        print("6. Sair\n")
+        print("6. Editar uma forma")
+        print("7. Sair\n")
 
         escolha = int(input("Digite o número da ação desejada: "))
 
@@ -62,7 +63,28 @@ def main():
                 formas.sort(key=lambda forma: forma.area, reverse=True)
                 for i, forma in enumerate(formas, start=1):
                     print(f"{forma.__class__.__name__} {forma.num} - Área: {forma.area:.2f}")
-        elif escolha != 6:
+        elif escolha == 6:
+            formas = retangulos + triangulos + circulos
+            print("\nEscolha a forma que deseja editar:")
+
+            for i, forma in enumerate(formas, start=1):
+                print(f"{i}. {forma.__class__.__name__} {forma.num}")
+
+            escolha_forma = int(input("Digite o número da forma que deseja editar: "))
+    
+            if 1 <= escolha_forma <= len(formas):
+                forma = formas[escolha_forma - 1]
+                if isinstance(forma, Retangulo) or isinstance(forma, Triangulo):
+                    forma.definir(f"{forma.__class__.__name__} {forma.num}")
+                    forma.calcular_area()
+                elif isinstance(forma, Circulo):
+                    forma.definir_raio()
+                    forma.calcular_area()
+                print(f"A área da forma {forma.__class__.__name__} {forma.num} foi atualizada para: {forma.area:.2f}\n")
+            else:
+                print("Opção inválida!")        
+            
+        elif escolha != 7:
             print("\nObrigado por usar o código geométrico!")
 
 if __name__ == "__main__":
