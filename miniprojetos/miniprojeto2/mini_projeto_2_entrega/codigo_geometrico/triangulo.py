@@ -1,4 +1,5 @@
-from codigo_geometrico.base_altura import BaseAltura
+from miniprojetos.miniprojeto2.mini_projeto_2_entrega.codigo_geometrico.base_altura import BaseAltura
+
 class Triangulo(BaseAltura):
     def __init__(self, num):
         super().__init__()

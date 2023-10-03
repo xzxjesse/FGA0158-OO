@@ -1,6 +1,44 @@
-from workspace_FGA0158.miniprojetos.miniprojeto2.mini_projeto_2_entrega.codigo_geometrico.circulo import Circulo
-from workspace_FGA0158.miniprojetos.miniprojeto2.mini_projeto_2_entrega.codigo_geometrico.retangulo import Retangulo
-from workspace_FGA0158.miniprojetos.miniprojeto2.mini_projeto_2_entrega.codigo_geometrico.triangulo import Triangulo
+import math
+
+class BaseAltura:
+    def __init__(self):
+        self.base = 0.0
+        self.altura = 0.0
+
+    def definir(self, num):
+        self.base = float(input(f"Digite a base do {num}: "))
+        self.altura = float(input(f"Digite a altura do {num}: "))
+
+class Retangulo(BaseAltura):
+    def __init__(self, num):
+        super().__init__()
+        self.area = 0.0
+        self.num = num
+
+    def calcular_area(self):
+        self.area = self.base * self.altura
+
+class Triangulo(BaseAltura):
+    def __init__(self, num):
+        super().__init__()
+        self.area = 0.0
+        self.num = num
+
+    def calcular_area(self):
+        self.area = (self.base * self.altura) / 2
+
+class Circulo:
+    def __init__(self, num):
+        self.raio = 0.0
+        self.area = 0.0
+        self.num = num
+
+    def definir_raio(self):
+        self.raio = float(input(f"Digite o raio do círculo {self.num}: "))
+
+    def calcular_area(self):
+        pi = 3.14159265359
+        self.area = round(pi * self.raio ** 2, 2)
 
 def main():
     print("Bem-vindo ao código geométrico!")
