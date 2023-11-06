@@ -32,15 +32,15 @@ A seguir estão as classes principais do sistema:
 
 ## Diagrama de Caso de Uso
 
-https://github.com/xzxjesse/workspace_FGA0158/blob/main/miniprojetos/miniprojeto3/imagens/Diagrama_de_caso_de_uso.drawio.png?raw=true
+![Diagrama de Caso de Uso](https://github.com/xzxjesse/workspace_FGA0158/blob/main/miniprojetos/miniprojeto3/imagens/Diagrama_de_caso_de_uso.drawio.png?raw=true)
 
 ## Diagrama de Classes
 
-https://github.com/xzxjesse/workspace_FGA0158/blob/main/miniprojetos/miniprojeto3/imagens/Diagrama_de_classes.drawio.png?raw=true
+![Diagrama de Classes](https://github.com/xzxjesse/workspace_FGA0158/blob/main/miniprojetos/miniprojeto3/imagens/Diagrama_de_classes.drawio.png?raw=true)
 
 ## Diagrama de Objetos
 
-https://github.com/xzxjesse/workspace_FGA0158/blob/main/miniprojetos/miniprojeto3/imagens/Diagrama_de_objetos.drawio.png?raw=true
+![Diagrama de Objetos](https://github.com/xzxjesse/workspace_FGA0158/blob/main/miniprojetos/miniprojeto3/imagens/Diagrama_de_objetos.drawio.png?raw=true)
 
 ## Diagrama de Fluxo de Dados
-https://github.com/xzxjesse/workspace_FGA0158/blob/main/miniprojetos/miniprojeto3/imagens/Diagrama_de_fluxo_de_dados.drawio.png?raw=true
+![Diagrama de Fluxo de Dados](https://github.com/xzxjesse/workspace_FGA0158/blob/main/miniprojetos/miniprojeto3/imagens/Diagrama_de_fluxo_de_dados.drawio.png?raw=true)
