@@ -20,7 +20,7 @@ As avaliações são realizadas através de miniprojetos.
 - [Miniprojeto 1: Pseudocódigo Geométrico](https://github.com/xzxjesse/workspace_FGA0158/tree/main/miniprojetos/miniprojeto1)
 - [Miniprojeto 2: Código Geométrico em Python](https://github.com/xzxjesse/workspace_FGA0158/tree/main/miniprojetos/miniprojeto2)
 - [Miniprojeto 3: UML do Jogo Snake](https://github.com/xzxjesse/workspace_FGA0158/tree/main/miniprojetos/miniprojeto3)
-- [Projeto Final: Jogo da Velha - Xtreme](https://github.com/antonioscarvalho/Jogo_da_Velha_-_Xtreme)
+- [Projeto Final: Jogo da Velha - Xtreme](https://github.com/xzxjesse/FGA0158-OO/tree/main/projeto_final)
 
 ## Conteúdos
 
